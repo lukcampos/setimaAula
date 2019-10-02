@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Lista de usuários</h1>
+  <ul class="list-group">
+    <ng-container *ngFor="let user of users;let i = index">
+      <app-list-iten [user]="user"></app-list-iten>
+    </ng-container>
+  </ul>
+
+</div>
