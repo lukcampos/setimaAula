@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: '', component: ListComponent // rota principal
   },
+
+  {
+    path: 'list', component: ListComponent // rota de listagem / principal
+  },
   {
     path: 'user/:id', component: UserComponent
   }
